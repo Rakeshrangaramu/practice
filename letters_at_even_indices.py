@@ -8,3 +8,6 @@ for letter in str:
         a.append(letter)
     counter += 1
 print("".join(a))
+
+# use this alternate single line code to print letters at even indices
+print(str[::2])
